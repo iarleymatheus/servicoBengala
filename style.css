@@ -42,9 +42,11 @@ h3{
 .box{
     margin: auto;
     position: relative;
-    height: 204px;
+    height: 254px;
     border-top: #FFD80B solid 1px;
     border-bottom: #FFD80B solid 1px;
+    justify-content:space-between
+    
 }
 button{
     font-family: 'Oswald', sans-serif;
@@ -57,8 +59,28 @@ button{
     margin-top: 10px;
 }
 #valor{
-    text-align: start;
+    text-align: center;
     margin-left: 35px;
     color: white;
     
+}
+#usado{
+    margin-right: 16px;
+}
+#valorServ{
+    position: relative;
+    right: 55px;
+}
+.text1{
+  position: relative;
+  right: 50px;
+
+}
+.text2{
+    position: relative;
+    right: 10px;
+}
+.text3{
+    position: relative;
+    left: 5px;
 }
